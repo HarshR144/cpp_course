@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main() {
-
+/*
 //allocating dynamic memory using new
 //initialze a pointer with dynamic memory dynamically allocate
 //allocated in heap
@@ -56,5 +56,14 @@ p_var2 ={nullptr};
 
 
 cout<<"program is ending well"<<endl;
+
+// pointer  arrays
+
+// int* p_scores {new int [10] {1,2,3,4,5,6,7}};
+// cout<<p_scores<<endl<<p_scores[2]<<":"<<*(p_scores+2)<<endl;
+
+// delete [] p_scores ;
+// p_scores =nullptr;
+*/
 
 }

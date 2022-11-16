@@ -56,7 +56,7 @@ class Dog{
         Dog& Dog::set_dog_name(string_view name){
             // name = name;    //member variable and parameter have same name
             this->name = name;  //error resolved using this
-        return *this;
+        return * this;
         }
         Dog& Dog::set_dog_breed(string_view breed){
             this->breed = breed;
